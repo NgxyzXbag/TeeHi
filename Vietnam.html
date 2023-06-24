@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teehi</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+    <script src="html5countrymapv4.2/mapdata.js"></script>
+    <script src="html5countrymapv4.2/countrymap.js"></script>
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+    <div class="nav-bar">
+        <a href=""><img src="img/TeeHi.png"></a>
+        <div class="navigation">
+            <div class="nav-items">
+                <i class="uil uil-times nav-close-btn"></i>
+                <a href="index.html" data-item='Home'><i class="uil uil-estate"></i>Home</a>
+                <a href="VanHoa.html" data-item='Culture'><i class="uil uil-info"></i>Culture</a>
+                <a href="AmThuc1.html" data-item='Cuisine'><i class="uil uil-utensils"></i>Cuisine</a>
+               
+            </div>
+        </div>
+       <div class="group">
+  <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+  <input placeholder="Search" type="search" class="input" id="Search" >
+</div>
+    </div>
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="homeVN" id="homeVN">
+
+    <div class="content" >
+        <div class="div_left" id="map"></div>
+
+        <div class="div_right"><img src="images/HSTS-removebg-preview.png" alt=""></div>
+        
+        
+    </div>
+
+</section>
+
+
+<!-- destination section ends -->
+
+<!-- services section starts  -->
+
+
+
+<!-- blogs section ends -->
+
+<!-- banner section starts  -->
+
+
+
+<!-- banner section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="">
+            <a data-aos="zoom-in-left" data-aos-delay="" ><img src="images/TeeHi.png" alt=""></a>
+
+            <p>Live In The Sun, Swim In The Ocean And Enjoy The Air Of Wild Nature</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        
+
+        <div class="box" data-aos="fade-up" data-aos-delay="">
+            <h3>Contact info</h3>
+            <p> <i class="fas fa-phone"></i> 02346868</p>
+            <p> <i class="fas fa-envelope"></i> teehe@gmail.com </p>
+            <p> <i class="fas fa-clock"></i>24/7</p>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input placeholder="Enter your email" class="input" name="text" type="text"> <br>
+                <input type="submit" value="Follow" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+    AOS.init({
+        duration: 800,
+        offset:150,
+    });
+    window.addEventListener("scroll", function(){
+    const header = document.querySelector("header")
+    header.classList.toggle("sticky", window.scrollY > 0);
+  });
+</script>
+
+</body>
+</html>
