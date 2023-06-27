@@ -90,7 +90,7 @@ header{
     justify-content: center;
     background-color:;
     /* background: transparent; */
-    backdrop-filter: blur(20px);
+    
 
     transition: 0.5s ease;
     transition-property: height, background;
